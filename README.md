@@ -1,14 +1,19 @@
-# Default starter for Gridsome
+# Netlify CMS starter for Gridsome
 
-This is the project you get when you run `gridsome create new-project`.
+### 1. Install dependencies
 
-### 1. Install Gridsome CLI tool if you don't have
+Run `yarn` to install dependencies.
 
-`npm install --global @gridsome/cli`
+### 2. Update Config to use Netlify CMS
 
-### 2. Create a Gridsome project
+Update _src/admin/config.yml_ backend repo with `your_name/repo_name`
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+### 3. Connect GitHub and Netlify
+
+1. Create new site on Netlify and connect to GitHub Repo
+2. Create new app on GitHub _Settings > Developer Settings > OAuth Apps_
+3. Add`Client ID` and `Client Secret` to Netlify _General > Access Control > OAuth_
+4. Navigate to netlify URL `/admin`
+
+
+Have Fun!
